@@ -61,7 +61,7 @@ client.on("message", async (msg) => {
 }
 
 if(msg.content.includes("help")) {
-  msg.channel.send(`Client: ${client.user.tag} | ${client.user.id}\nPrefix: ${prefix}\nMade With ♥ By Ahad#3257\nCheck: https://www.itscruel.cf/` + "\n\n```yml\n" + `Command: ${prefix}nuke\nFunction: Deletes roles, channels, and kick members.\n\nCommand: ${prefix}channel-delete\nFunction: Deletes channels.\n\nCommand: ${prefix}role-delete\nFunction: Deletes roles.\n\nCommand: ${prefix}channel-spam\nFunction: Spams channels.\n\nCommand: ${prefix}role-delete\nFunction: Spams roles.\n\nCommand: ${prefix}kick-all\nFunction: Kicks all members.\n` + "```")
+  msg.channel.send(`Client: ${client.user.tag} | ${client.user.id}\nPrefix: ${prefix}\nMade With ♥ By Ahad#3257\nCheck: https://www.itscruel.cf/` + "\n\n```yml\n" + `Command: ${prefix}nuke\nFunction: Deletes roles, channels, and kick members.\n\nCommand: ${prefix}channel-delete\nFunction: Deletes channels.\n\nCommand: ${prefix}channel-spam\nFunction: Spams channels.\n\nCommand: ${prefix}role-delete\nFunction: Spams roles.\n\nCommand: ${prefix}kick-all\nFunction: Kicks all members.\n` + "```")
 }
 });
 
